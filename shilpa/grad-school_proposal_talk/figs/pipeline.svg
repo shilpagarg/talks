@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2167.2859"
+   height="1029.7308"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="pipeline.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3778"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1086.0715"
+     inkscape:cy="572.088"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1145"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1258.2144,-74.719322)">
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2985"
+       width="651.42859"
+       height="182.85715"
+       x="257.14285"
+       y="75.219322" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="377.14288"
+       y="155.21933"
+       id="text2987"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2989"
+         x="377.14288"
+         y="155.21933"
+         style="font-size:48px">     Haplotypes </tspan><tspan
+         sodipodi:role="line"
+         x="377.14288"
+         y="215.21933"
+         id="tspan2991"
+         style="font-size:48px">(Reference Panel)</tspan></text>
+    <rect
+       y="75.219322"
+       x="-497.42856"
+       height="182.85715"
+       width="651.42859"
+       id="rect2993"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2995"
+       y="155.21933"
+       x="-377.42853"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:48px"
+         y="155.21933"
+         x="-377.42853"
+         id="tspan2997"
+         sodipodi:role="line">       Reads </tspan><tspan
+         style="font-size:48px"
+         id="tspan2999"
+         y="215.21933"
+         x="-377.42853"
+         sodipodi:role="line">(target sample)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.44099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m -174.28571,260.78755 0,103.14926"
+       id="path3001"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect4215"
+       width="651.42859"
+       height="182.85715"
+       x="-1257.7144"
+       y="75.219322" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-1137.7142"
+       y="155.21933"
+       id="text4217"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4219"
+         x="-1137.7142"
+         y="155.21933"
+         style="font-size:48px">    Genotypes </tspan><tspan
+         sodipodi:role="line"
+         x="-1137.7142"
+         y="215.21933"
+         id="tspan4221"
+         style="font-size:48px">(target sample)</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4223"
+       d="m -934.57142,260.78755 0,103.14926"
+       style="fill:none;stroke:#000000;stroke-width:2.44099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+    <rect
+       y="380.93362"
+       x="-1186.616"
+       height="112.67621"
+       width="1300.74"
+       id="rect4229"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.109231px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-677.14288"
+       y="343.79077"
+       id="text4231"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4233"
+         x="-677.14288"
+         y="343.79077">WhatsHap</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-1059.7142"
+       y="458.64792"
+       id="text4235"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4237"
+         x="-1059.7142"
+         y="458.64792">RBP:Read based phasing from reads (Local)</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4239"
+       d="m 588.57143,260.78755 0,442.99013"
+       style="fill:none;stroke:#000000;stroke-width:3.25900006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4241"
+       d="m -385.71428,495.07326 0,212.98074"
+       style="fill:none;stroke:#000000;stroke-width:2.24439669;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.109231px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect4243"
+       width="1300.74"
+       height="112.67621"
+       x="-480.90167"
+       y="991.21936" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4245"
+       y="947.21936"
+       x="28.857117"
+       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="947.21936"
+         x="28.857117"
+         id="tspan4247"
+         sodipodi:role="line">Beagle</tspan></text>
+    <rect
+       y="75.219322"
+       x="-1257.7144"
+       height="182.85715"
+       width="651.42859"
+       id="rect4249"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4251"
+       y="155.21933"
+       x="-1137.7142"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:48px"
+         y="155.21933"
+         x="-1137.7142"
+         id="tspan4253"
+         sodipodi:role="line">    Genotypes </tspan><tspan
+         style="font-size:48px"
+         id="tspan4255"
+         y="215.21933"
+         x="-1137.7142"
+         sodipodi:role="line">(target sample)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-191.42857"
+       y="1060.9336"
+       id="text4261"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4263"
+         x="-191.42857"
+         y="1060.9336"
+         style="font-size:48px">Statistical phasing over RBP </tspan></text>
+    <rect
+       y="726.93365"
+       x="-483.75882"
+       height="130.33434"
+       width="1300.74"
+       id="rect4265"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.19298589px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4267"
+       y="769.505"
+       x="-440"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:48px"
+         y="769.505"
+         x="-440"
+         id="tspan4269"
+         sodipodi:role="line">Generate pseudo-sites from RBP </tspan><tspan
+         style="font-size:48px"
+         y="829.505"
+         x="-440"
+         sodipodi:role="line"
+         id="tspan4271">Project reference panel to this coordinate sapce. </tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.33284402;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m -385.71428,859.32877 0,114.72523"
+       id="path4273"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4275"
+       d="m 594.57143,862.18591 0,114.72523"
+       style="fill:none;stroke:#000000;stroke-width:3.33284402;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+  </g>
+</svg>
