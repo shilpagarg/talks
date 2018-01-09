@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3025.0562"
+   height="1699.923"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="flowdiagram.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3866"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3868" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3866"
+       id="linearGradient4082"
+       gradientUnits="userSpaceOnUse"
+       x1="347.98572"
+       y1="416.64789"
+       x2="629.15717"
+       y2="416.64789" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3866"
+       id="linearGradient4094"
+       gradientUnits="userSpaceOnUse"
+       x1="347.98572"
+       y1="416.64789"
+       x2="629.15717"
+       y2="416.64789" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1875.2596"
+     inkscape:cy="800.92752"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1350.6132,128.68719)">
+    <rect
+       style="fill:none;stroke:#0000f7;stroke-width:17.79911423;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2985"
+       width="1107.4562"
+       height="232.92975"
+       x="-1162.8572"
+       y="-119.68775" />
+    <text
+       xml:space="preserve"
+       style="font-size:60.6530304px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="-1227.4868"
+       y="-30.795588"
+       id="text3755"
+       sodipodi:linespacing="125%"
+       transform="scale(0.94770362,1.0551822)"><tspan
+         sodipodi:role="line"
+         id="tspan3757"
+         x="-1227.4868"
+         y="-30.795588">        GIAB SNP Calls  (141,256)</tspan><tspan
+         sodipodi:role="line"
+         x="-1227.4868"
+         y="48.356789"
+         id="tspan3759"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;font-family:Sans;-inkscape-font-specification:Sans"> Ground Truth unphased genotypes</tspan><tspan
+         sodipodi:role="line"
+         x="-1227.4868"
+         y="125.0207"
+         id="tspan3763" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:22.07051849;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.31415938;stroke-dasharray:none"
+       d="m 3.02034,-11.93176 137.66863,0"
+       id="path3765"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:20.62781715;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.34513275;stroke-dasharray:none"
+       d="M 142.40608,31.877628 185.24102,-13.893729 140.92901,-58.08676"
+       id="path3767"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g3819"
+       transform="translate(-94,9.3786249)">
+      <g
+         id="g3815">
+        <g
+           id="g3812">
+          <rect
+             style="fill:none;stroke:#0000f7;stroke-width:17.99887848;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+             id="rect3769"
+             width="1132.4542"
+             height="232.92975"
+             x="320.31235"
+             y="-129.06638" />
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         x="269.42859"
+         y="-51.066425"
+         id="text3771"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3773"
+           x="269.42859"
+           y="-51.066425">     Phasing using ShapeIt  (140,744)</tspan><tspan
+           sodipodi:role="line"
+           x="269.42859"
+           y="28.933575"
+           id="tspan3775"
+           style="fill:#ff0000">      Ground Truth phased variants</tspan><tspan
+           sodipodi:role="line"
+           x="269.42859"
+           y="108.93358"
+           id="tspan3777" /></text>
+    </g>
+    <rect
+       y="611.79077"
+       x="-1158.7723"
+       height="153.74898"
+       width="1106.932"
+       id="rect3779"
+       style="fill:none;stroke:#0000f7;stroke-width:14.4573679;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3781"
+       y="697.505"
+       x="-1213.1428"
+       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         id="tspan3787"
+         y="697.505"
+         x="-1213.1428"
+         sodipodi:role="line"
+         style="fill:#000000">      10x Genomics phased variants</tspan></text>
+    <rect
+       style="fill:none;stroke:#0000f7;stroke-width:19.12042427;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3796"
+       width="1106.932"
+       height="268.92355"
+       x="-1158.7723"
+       y="238.6162" />
+    <text
+       xml:space="preserve"
+       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="-1097.1428"
+       y="314.64786"
+       id="text3798"
+       sodipodi:linespacing="125%"><tspan
+         style="fill:#ff0000"
+         sodipodi:role="line"
+         x="-1097.1428"
+         y="314.64786"
+         id="tspan3800"><tspan
+           style="fill:#000000"
+           id="tspan3828">             PacBio dataset </tspan></tspan><tspan
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="-1097.1428"
+         y="386.67386"
+         id="tspan3802">coverages: 2x, 3x, 4x, 5x, 10x, 15x</tspan><tspan
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+         sodipodi:role="line"
+         x="-1097.1428"
+         y="456.67386"
+         id="tspan3804">avg. read-length: 8495 bp</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:118.02455139px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-2507.4978"
+       y="292.08521"
+       id="text3832"
+       sodipodi:linespacing="125%"
+       transform="scale(0.51301723,1.9492523)"><tspan
+         sodipodi:role="line"
+         id="tspan3834"
+         x="-2507.4978"
+         y="292.08521"
+         style="font-size:424.88839722px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-509.39902"
+       y="-1308.0663"
+       id="text3836"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3838"
+         x="-509.39902"
+         y="-1308.0663"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;font-family:Sans;-inkscape-font-specification:Sans">Real Dataset (AJ trio)</tspan></text>
+    <path
+       style="fill:#008080;stroke:#077e2e;stroke-width:14.29728889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M -40.653453,698.1309 C 808.47751,118.3682 800.61516,123.73636 800.61516,123.73636"
+       id="path3846"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#097c2e;fill-opacity:1;stroke:#008100;stroke-width:12.81812954;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M -45.714286,380.93361 439.22124,378.07647"
+       id="path3848"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-16"
+       y="342.93362"
+       id="text3850"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3852"
+         x="-16"
+         y="342.93362"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">WhatsHap</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#linearGradient4094);fill-opacity:1;stroke:#008100;stroke-width:12.60000038;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3854"
+       sodipodi:cx="488.57144"
+       sodipodi:cy="416.64789"
+       sodipodi:rx="134.28572"
+       sodipodi:ry="112.85714"
+       d="m 622.85716,416.64789 c 0,62.32928 -60.12176,112.85714 -134.28572,112.85714 -74.16395,0 -134.28572,-50.52786 -134.28572,-112.85714 0,-62.32928 60.12177,-112.85714 134.28572,-112.85714 74.16396,0 134.28572,50.52786 134.28572,112.85714 z"
+       transform="matrix(1.4587722,0,0,1,-245.9793,0)" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#008100;stroke-width:36;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d=""
+       id="path3862"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="318.85715"
+       y="392.36218"
+       id="text3872"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3874"
+         x="318.85715"
+         y="392.36218"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">   Phasing </tspan><tspan
+         sodipodi:role="line"
+         x="318.85715"
+         y="452.36218"
+         id="tspan3876"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">comparison</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:17.36709404;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.31415938;stroke-dasharray:none"
+       d="m 911.44,137.66828 0,387.93165"
+       id="path3765-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:14.77793884;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.34513275;stroke-dasharray:none"
+       d="m 858.07525,515.78486 54.38705,39.78121 52.51155,-41.15298"
+       id="path3767-2"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#645dfa;stroke-width:15.999;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3917"
+       width="1083.7766"
+       height="204.68483"
+       x="409.14288"
+       y="601.13293" />
+    <text
+       xml:space="preserve"
+       style="font-size:36.50940323px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="397.69174"
+       y="727.5282"
+       id="text3919"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0956081,0.91273512)"><tspan
+         sodipodi:role="line"
+         id="tspan3921"
+         x="397.69174"
+         y="727.5282"
+         style="font-size:58.41504669px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;font-family:Sans;-inkscape-font-specification:Sans">   Virtual Child (True haplotypes)</tspan><tspan
+         sodipodi:role="line"
+         x="397.69174"
+         y="785.99072"
+         style="font-size:43.81128693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan3927">(applying recombination and inheritance </tspan><tspan
+         sodipodi:role="line"
+         x="397.69174"
+         y="840.75482"
+         style="font-size:43.81128693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan3937">            to four parent haplotypes)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36.50940323px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="888.73541"
+       y="331.8602"
+       id="text3836-9"
+       sodipodi:linespacing="125%"
+       inkscape:transform-center-x="-5.7350178e-05"
+       inkscape:transform-center-y="-276.10829"
+       transform="scale(1.0956081,0.91273512)"><tspan
+         sodipodi:role="line"
+         id="tspan3838-8"
+         x="888.73541"
+         y="331.8602"
+         style="font-size:51.11316681px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;font-family:Sans;-inkscape-font-specification:Sans">True Haplotypes </tspan><tspan
+         sodipodi:role="line"
+         x="888.73541"
+         y="395.75165"
+         style="font-size:51.11316681px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan3960">of parents</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:14.74860859;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.31415938;stroke-dasharray:none"
+       d="m 918.3344,832.42585 0,101.23123"
+       id="path3765-4-7"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:11.38930035;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.34513275;stroke-dasharray:none"
+       d="m 871.84696,928.82263 45.27424,37.41553 43.71301,-38.70578"
+       id="path3767-2-8"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="991.07446"
+       x="409.14288"
+       height="236.01686"
+       width="1083.7766"
+       id="rect4016"
+       style="fill:#ffffff;fill-opacity:1;stroke:#645dfa;stroke-width:16.57802773;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4018"
+       y="1155.2087"
+       x="397.69174"
+       style="font-size:36.50940323px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="scale(1.0956081,0.91273512)"><tspan
+         style="font-size:58.41504669px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;font-family:Sans;-inkscape-font-specification:Sans"
+         y="1155.2087"
+         x="397.69174"
+         id="tspan4020"
+         sodipodi:role="line">   Simulated reads using pbsim</tspan><tspan
+         id="tspan4024"
+         style="font-size:58.41504669px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;font-family:Sans;-inkscape-font-specification:Sans"
+         y="1228.2275"
+         x="397.69174"
+         sodipodi:role="line">         BWA-MEM alignments </tspan><tspan
+         style="font-size:51.11316681px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+         y="1293.9683"
+         x="397.69174"
+         sodipodi:role="line"
+         id="tspan4040">  Downsampled (2x,3x,4x,10x,15x)</tspan><tspan
+         style="font-size:43.81128693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+         y="1357.8596"
+         x="397.69174"
+         sodipodi:role="line"
+         id="tspan4034" /></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4048"
+       d="m 918.3344,1249.2172 0,76.6375"
+       style="fill:none;stroke:#000000;stroke-width:17.00512123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.31415938;stroke-dasharray:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4050"
+       d="m 869.23869,1318.6899 46.68541,33.769 45.07553,-34.9335"
+       style="fill:none;stroke:#000000;stroke-width:10.98740292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.34513275;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4052"
+       y="1444.6792"
+       x="939.59399"
+       style="font-size:36.50940323px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="scale(1.0956081,0.91273512)"><tspan
+         style="font-size:51.11316681px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         y="1444.6792"
+         x="939.59399"
+         id="tspan4054"
+         sodipodi:role="line">WhatsHap</tspan></text>
+    <path
+       transform="matrix(1.6263289,0,0,0.83308541,124.94348,1122.6516)"
+       d="m 622.85716,416.64789 c 0,62.32928 -60.12176,112.85714 -134.28572,112.85714 -74.16395,0 -134.28572,-50.52786 -134.28572,-112.85714 0,-62.32928 60.12177,-112.85714 134.28572,-112.85714 74.16396,0 134.28572,50.52786 134.28572,112.85714 z"
+       sodipodi:ry="112.85714"
+       sodipodi:rx="134.28572"
+       sodipodi:cy="416.64789"
+       sodipodi:cx="488.57144"
+       id="path4074"
+       style="fill:url(#linearGradient4082);fill-opacity:1;stroke:#008100;stroke-width:12.60000038;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4076"
+       y="1588.1089"
+       x="718.45013"
+       style="font-size:36.50940323px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="scale(1.0956081,0.91273512)"><tspan
+         style="font-size:43.81128693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         y="1588.1089"
+         x="718.45013"
+         id="tspan4078"
+         sodipodi:role="line">   Phasing </tspan><tspan
+         style="font-size:43.81128693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan4080"
+         y="1642.873"
+         x="718.45013"
+         sodipodi:role="line">comparison</tspan></text>
+    <text
+       transform="scale(-0.64760241,-1.5441573)"
+       sodipodi:linespacing="125%"
+       id="text4084"
+       y="-479.85324"
+       x="-2509.9275"
+       style="font-size:93.49661255px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:336.58782959px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         y="-479.85324"
+         x="-2509.9275"
+         id="tspan4086"
+         sodipodi:role="line">{</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4088"
+       y="-1489.4889"
+       x="745.06311"
+       style="font-size:36.50940322999999665px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="matrix(0,0.91273512,-1.0956081,0,0,0)"><tspan
+         style="font-size:51.11316680999999562px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;font-family:Sans;-inkscape-font-specification:Sans"
+         y="-1489.4889"
+         x="745.06311"
+         id="tspan4090"
+         sodipodi:role="line">Simulated Dataset</tspan></text>
+  </g>
+</svg>
