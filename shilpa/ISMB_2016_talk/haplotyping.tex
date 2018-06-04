@@ -11,7 +11,7 @@
 \usepackage{eurosym}
 \usepackage{amssymb}
 \usetheme{uds}
-\usepackage[dvipsnames]{xcolor}
+% \usepackage[dvipsnames]{xcolor}
 
 \defbeamertemplate{headline}{page number}{%
 	\vskip1pt%
@@ -69,6 +69,7 @@
 \newcommand{\NN}{\mathbb{R}}
 \newcommand{\W}{\mathcal{W}}
 
+
 \newcommand{\blackboard}[1]{
 \begin{block}<#1>{}
 \begin{center}
@@ -107,13 +108,13 @@
 \end{frame}
 }
               
-\title[Haplotype Assembly]{Read-Based Phasing of Related Individuals}
+\title[Haplotype Assembly]{Computational Haplotyping}
 %\author[SG]{\textit{Shilpa Garg}\\ PhD Student, MPI-Inf, Saarbrücken, Germany \\with \\
 %	Marcel Martin, Tobias Marschall }
 
-\author[S.~Garg, M.~Martin, T.~Marschall]{\textcolor{blue}{Shilpa Garg~$^{1,2,3}$}, Marcel Martin~$^{4}$ and Tobias Marschall~$^{1,2}$}
-\date{July 11, 2016}
-\institute{\scriptsize $^{1}$Max Planck Institute for Informatics, Germany\\ $^{2}$Center for Bioinformatics, Saarland University, Germany \\ $^{3}$ Saarbr\"ucken Graduate School of Computer Science, Germany \\$^{4}$ Science for Life Laboratory, Dept. of Biochemistry and Biophysics, Stockholm University, Sweden}
+\author[Shilpa Garg]{Shilpa Garg}
+\date{March 6, 2018}
+\institute{\scriptsize Max Planck Institute for Informatics, Germany \\ Center for Bioinformatics, Saarland University, Germany \\ Saarbr\"ucken Graduate School of Computer Science, Germany}
 
 
 \begin{document}
@@ -126,6 +127,7 @@
 \end{center}
 \begin{block}<2>{Applications}
 \begin{itemize}
+	\item Genome engineering
 	\item Personalized medicine
 	\item Human migration, evolutionary selection and population structure
 \end{itemize}
@@ -134,13 +136,38 @@
 
 \begin{frame}{Approaches to Phasing}
 \begin{center}
-\only<1>{\includegraphics[width=\textwidth]{figs/haplotyping-overview1}}%
-\only<2>{\includegraphics[width=\textwidth]{figs/haplotyping-overview2}}%
-\only<3>{\includegraphics[width=\textwidth]{figs/haplotyping-overview3}}%
-\only<4>{\includegraphics[width=\textwidth]{figs/haplotyping-overview4}}%
-
+% \only<1>{\includegraphics[width=\textwidth]{figs/haplotyping-overview1}}%
+\only<1>{\includegraphics[width=\textwidth]{figs/haplotyping-overview6}}%
+\only<2>{\includegraphics[width=\textwidth]{figs/haplotyping-overview5}}%
 \end{center}
 \end{frame}
+
+\begin{frame}{Combining Different Information Sources}
+\begin{center}
+\only<1>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections0}} %
+\only<2>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections1}} % 
+\only<3>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections2}} % 
+\only<4>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections8}} % 
+\only<5>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections9}} % 
+% \only<4>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections3}} % 
+\only<6>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections7}} % 
+% \only<6>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections5}} % 
+\end{center}
+\end{frame}
+
+% \begin{frame}{Challenges in Read-Based Phasing}
+%  \begin{itemize}
+%   \item Ordering of reads over the genome
+%   \item Errorenous data
+%  \end{itemize}
+% \end{frame}
+
+\begin{frame}{Read-Based Phasing (Single Individual)}
+\begin{center}
+\includegraphics[scale=.35]{figs/sih-phasing-complete2.pdf}
+\end{center}
+\end{frame}
+
 
 \begin{frame}{Read-Based Phasing (Single Individual)}
 \begin{center}
@@ -252,9 +279,9 @@
 
 
 \begin{frame}{WhatsHap Algorithm (Sketch)}
-		\begin{block}{}
-			Introduced at RECOMB 2014
-		\end{block}
+% 		\begin{block}{}
+% 			Introduced at RECOMB 2014
+% 		\end{block}
 \begin{block}{}
 \emph{Approach:} FPT algorithm with ``coverage'' as parameter.
 \begin{itemize}
@@ -297,11 +324,14 @@
 %\end{frame}
 
 \captionslide{Read-Based Phasing of\\ Related Individuals\\
-{ \begin{enumerate} \scriptsize \color{red}
+{ \begin{itemize}
+ \scriptsize \color{red}
 		\item How much coverage is needed for resolving haplotypes in related individuals as opposed to single individual?
 		\item Can we get long-range haplotypes for all the individuals?
 	\end{itemize} }
-}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
+	}
+
 
 \begin{frame}{Phasing Related Individuals}
 
@@ -318,10 +348,11 @@
 		\end{block}}%
 %\includegraphics[width=.9\textwidth]{figs/trio-phasing-complete}
 \end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
 \end{frame}
 
 \begin{frame}{Phasing Related Individuals}
-	\begin{center} \vspace*{.5mm}
+	\begin{center} 
 		\only<1>{\includegraphics[width=.9\textwidth]{figs/trio-phasing-complete}}%
 		%\includegraphics[width=.9\textwidth]{figs/trio-phasing-complete}
 
@@ -333,8 +364,9 @@
 			\end{itemize}
 		\end{block}
 			\end{center}
-					\vspace*{4.5mm}
-\end{frame}
+% 					\vspace*{4.5mm}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
+					\end{frame}
 
 
 %\begin{frame}{Phasing Related Individuals}
@@ -413,7 +445,8 @@
 		\only<4>{\includegraphics[width=\textwidth, height=175]{figs/pedmec4}}%
 			%	\only<5>{\includegraphics[width=\textwidth, height=175]{figs/pedmec5}}%
 	\end{center}
-\end{frame}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
+	\end{frame}
 
 %\begin{frame}{From wMEC to ``MEC on Pedigrees'' (PedMEC)}
 %			\begin{block}{Objective function (minimize):\color{red}PedMEC }
@@ -457,17 +490,19 @@
 				i.e.\ which haplotype in each parent is transmitted to child
 			\end{itemize}
 		\end{block}
+		\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
 \end{frame}
 
-\begin{frame}{WhatsHap (Related Individuals)}
-	\begin{center}
-		\only<1>{\includegraphics[width=\textwidth, height=175]{figs/pedmeccost2}}%
-		\only<2>{\includegraphics[width=\textwidth, height=175]{figs/pedmeccost1}}%
-		\only<3>{\includegraphics[width=\textwidth, height=175]{figs/pedmeccost3}}%
-		\only<4>{\includegraphics[width=\textwidth, height=175]{figs/pedmeccost4}}%
-%		\only<5>{\includegraphics[width=\textwidth, height=180]{figs/pedmec5}}%
-	\end{center}
-\end{frame}
+% \begin{frame}{WhatsHap (Related Individuals)}
+% 	\begin{center}
+% 		\only<1>{\includegraphics[width=\textwidth, height=175]{figs/pedmeccost2}}%
+% 		\only<2>{\includegraphics[width=\textwidth, height=175]{figs/pedmeccost1}}%
+% % 		\only<3>{\includegraphics[width=\textwidth, height=175]{figs/pedmeccost3}}%
+% % 		\only<4>{\includegraphics[width=\textwidth, height=175]{figs/pedmeccost4}}%
+% %		\only<5>{\includegraphics[width=\textwidth, height=180]{figs/pedmec5}}%
+% 	\end{center}
+% 	\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
+% \end{frame}
 
 %\begin{frame}{WhatsHap (Related Individuals) }
 %%	\begin{block}{WhatsHap (Related Individuals) }
@@ -510,67 +545,67 @@
 %	
 %\end{frame}
 
-%\begin{frame}
-%	\begin{block}{WhatsHap (Related Individuals)}
+% \begin{frame}
+% 	\begin{block}{WhatsHap (Related Individuals)}
 %                \scriptsize
-%		\textcolor{red}{DP Recurrence}
-%		\begin{align}\label{eqn:recurrence}
-%			& C(k+1,B,t)= \Delta_C(k+1,B,t)\\
-%			& \quad + \min_{\substack{B'\in\mathcal{B}(A(k)):B'\simeq B\\t'\in\{0,1\}^{2 {\mathcal{T}}}}}\big\{C(k,B',t')+d_H(t,t')\cdot\mathcal{X}(k+1)\big\}, \nonumber
-%		\end{align}
-%	\end{block}
-%%	\begin{center}
-%\only<1>{		\begin{columns}[]
-%			                       \hspace*{10mm}
-%
-%			\begin{column}{0.4\textwidth}
-%				\includegraphics[scale=0.15]{figs/trio-phasing-complete-scond-column}
+% 		\textcolor{red}{DP Recurrence}
+% 		\begin{align}\label{eqn:recurrence}
+% 			& C(k+1,B,t)= \Delta_C(k+1,B,t)\\
+% 			& \quad + \min_{\substack{B'\in\mathcal{B}(A(k)):B'\simeq B\\t'\in\{0,1\}^{2 {\mathcal{T}}}}}\big\{C(k,B',t')+d_H(t,t')\cdot\mathcal{X}(k+1)\big\}, \nonumber
+% 		\end{align}
+% 	\end{block}
+% %	\begin{center}
+% \only<1>{		\begin{columns}[]
+% 			                       \hspace*{10mm}
+% 
+% 			\begin{column}{0.4\textwidth}
+% 				\includegraphics[scale=0.15]{figs/trio-phasing-complete-scond-column}
 %                                % width=0.9\textwidth
-%				 \begin{block}{}
-%				 	\tiny $C(2,B,t)=0+ \min\{4 \ldots        \}$
-%				 \end{block}
-%
-%			\end{column}
+% 				 \begin{block}{}
+% 				 	\tiny $C(2,B,t)=0+ \min\{4 \ldots        \}$
+% 				 \end{block}
+% 
+% 			\end{column}
 %                        \hspace*{2mm}
-%			\begin{column}{0.9\textwidth}
-%				
-%				%\begin{center}
-%				%\includegraphics[scale=0.3]{figs/trio-phasing-complete-cost-computation1-second-transmission}
+% 			\begin{column}{0.9\textwidth}
+% 				
+% 				%\begin{center}
+% 				%\includegraphics[scale=0.3]{figs/trio-phasing-complete-cost-computation1-second-transmission}
 %                                %width=0.5\textwidth, height=0.9\textwidth
-%				\includegraphics[height=.5\textwidth]{figs/trio-phasing-complete-cost-computation1-second-column-dp-value}\\
-%				%\end{center}
-%				
-%			\end{column}
-%		\end{columns}
-%	}
-%\only<2>{\begin{columns}[]
-%	\hspace*{10mm}
-%	\begin{column}{0.4\textwidth}
-%		\vspace*{1.8mm}
-%		\includegraphics[scale=0.15]{figs/trio-phasing-complete-scond-column}
-%		% width=0.9\textwidth
-%		\begin{block}{}
-%			\tiny $C(2,B,t)=0+ \min\{4, 2 + 1\cdot 20, 4 + 1\cdot 20, 2 + 2\cdot20\}$
-%		\end{block}
-%		
-%	\end{column}
-%	\hspace*{2mm}
-%	\begin{column}{0.9\textwidth}
-%		
-%		%\begin{center}
-%		%\includegraphics[scale=0.3]{figs/trio-phasing-complete-cost-computation1-second-transmission}
-%		%width=0.5\textwidth, height=0.9\textwidth
-%		\includegraphics[height=.5\textwidth]{figs/trio-phasing-complete-cost-computation1-second-column-dp-value2}\\
-%		%\end{center}
-%		
-%	\end{column}
-%\end{columns}
-%	
-%	}
-%		
-%%	\end{center}
-%	
-%\end{frame}
+% 				\includegraphics[height=.5\textwidth]{figs/trio-phasing-complete-cost-computation1-second-column-dp-value}\\
+% 				%\end{center}
+% 				
+% 			\end{column}
+% 		\end{columns}
+% 	}
+% \only<2>{\begin{columns}[]
+% 	\hspace*{10mm}
+% 	\begin{column}{0.4\textwidth}
+% 		\vspace*{1.8mm}
+% 		\includegraphics[scale=0.15]{figs/trio-phasing-complete-scond-column}
+% 		% width=0.9\textwidth
+% 		\begin{block}{}
+% 			\tiny $C(2,B,t)=0+ \min\{4, 2 + 1\cdot 20, 4 + 1\cdot 20, 2 + 2\cdot20\}$
+% 		\end{block}
+% 		
+% 	\end{column}
+% 	\hspace*{2mm}
+% 	\begin{column}{0.9\textwidth}
+% 		
+% 		%\begin{center}
+% 		%\includegraphics[scale=0.3]{figs/trio-phasing-complete-cost-computation1-second-transmission}
+% 		%width=0.5\textwidth, height=0.9\textwidth
+% 		\includegraphics[height=.5\textwidth]{figs/trio-phasing-complete-cost-computation1-second-column-dp-value2}\\
+% 		%\end{center}
+% 		
+% 	\end{column}
+% \end{columns}
+% 	
+% 	}
+% 		
+% %	\end{center}
+% 	
+% \end{frame}
 
 
 \begin{frame}{}
@@ -579,11 +614,12 @@
 \[O(2^{2t+c}\cdot M)\qquad\qquad\text{(hiding some ugly terms)}\]
 		where $c$ is the \emph{maximum of sum of coverages across individuals} and $t$ is the \emph{number of mother-father-child relationship}.
 	\end{block}
-	\begin{block}<2>{}
-		Still feasible for, e.g., $t=1$ and $c=3\cdot 5$. 
-		\emph{Linear} in the number of variants.
-		\emph{Independent} of read length.
-	\end{block}
+% 	\begin{block}<2>{}
+% 		Still feasible for, e.g., $t=1$ and $c=3\cdot 5$. 
+% 		\emph{Linear} in the number of variants.
+% 		\emph{Independent} of read length.
+% 	\end{block}
+	\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
 \end{frame}
 
 %\begin{frame}{Datasets}
@@ -607,7 +643,7 @@
 	\begin{center}
 		\includegraphics[scale=0.1]{figs/flowdiagram1}
 	\end{center}
-
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
 \end{frame}
 
 %\begin{frame}
@@ -638,32 +674,31 @@
 \only<1>{\includegraphics[scale=.23]{figs/whatshap-pedmec-performance2}} %
 \only<2>{\includegraphics[scale=.1]{figs/flowdiagram2}} %
 \only<3>{\includegraphics[scale=.23]{figs/whatshap-pedmec-performance3}} %
-\only<4>{\includegraphics[scale=.1]{figs/flowdiagram}} %
+% \only<4>{\includegraphics[scale=.1]{figs/flowdiagram}} %
 \end{center} %\vspace{-.5em}
-%\begin{block}<3>{}
-%Note: runtime dominated by reading input files in all cases.
-%\end{block}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
 \end{frame}
 
-\begin{frame}{Comparison to other methods}
-\begin{columns}
-\begin{column}{.55\textwidth}
-\begin{block}{Three \emph{independent} phasings}
-\begin{itemize}
- \item PedMEC on 15$\times$ PacBio data
- \item 10xGenomics synthetic long-read phasing
- \item Statistical phasing by SHAPEIT using 1000 Genomes panel
-\end{itemize}
-\end{block}
-\end{column}
-\begin{column}{.45\textwidth}
-\begin{center}
-\only<1>{\includegraphics[scale=0.23]{figs/giab-threeway-left}}%
-%\only<2>{\includegraphics[width=\columnwidth]{figs/giab-threeway-both}}%
-\end{center}
-\end{column}
-\end{columns}
-\end{frame}
+% \begin{frame}{Comparison to other methods}
+% \begin{columns}
+% \begin{column}{.55\textwidth}
+% \begin{block}{Three \emph{independent} phasings}
+% \begin{itemize}
+%  \item PedMEC on 15$\times$ PacBio data
+%  \item 10xGenomics synthetic long-read phasing
+%  \item Statistical phasing by SHAPEIT using 1000 Genomes panel
+% \end{itemize}
+% \end{block}
+% \end{column}
+% \begin{column}{.45\textwidth}
+% \begin{center}
+% \only<1>{\includegraphics[scale=0.23]{figs/giab-threeway-left}}%
+% %\only<2>{\includegraphics[width=\columnwidth]{figs/giab-threeway-both}}%
+% \end{center}
+% \end{column}
+% \end{columns}
+% \let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
+% \end{frame}
 
 \begin{frame}{Phasing Across Block Boundaries}
 
@@ -711,6 +746,7 @@
 %			\end{itemize}
 %		\end{itemize}
 %	\end{block}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
 \end{frame}
 
 \begin{frame}{Conclusion}
@@ -719,20 +755,394 @@
 		\item Unified framework for integrative read-based phasing and genetic haplotyping.
 		\item More accurate and complete phasing with family relationship at low coverages of $2\times$ as compared to single individual at $15\times$.
 		\item Produces chromosome-length haplotypes by merging the blocks.
-		\item \emph{Future plan} is to integrate statistical, genetic and read-based phasing.
+% 		\item \emph{Future plan} is to integrate statistical, genetic and read-based phasing.
 	\end{itemize}
-	\begin{block}{}
-		\emph{Technology Track talk} by Marcel on WhatsHap software on Tuesday at 2:20 pm in the room Northern Hemisphere E3/E4
-	\end{block}
+% 	\begin{block}{}
+% 		\emph{Technology Track talk} by Marcel on WhatsHap software on Tuesday at 2:20 pm in the room Northern Hemisphere E3/E4
+% 	\end{block}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Martin M, Marschall T. \textit{Read-based phasing of related individuals}. Bioinformatics. 2016}}
 \end{frame}
 
-\captionslide{Efficient approach for statistical and read-based phasing}
+\captionslide{Back to the big picture}
+% \begin{frame}{Combining Different Information Sources}
+% \begin{center}
+% \only<1>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections0}} %
+% \only<2>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections1}} % 
+% \only<3>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections2}} % 
+% \only<4>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections8}} % 
+% \only<5>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections9}} % 
+% % \only<4>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections3}} % 
+% \only<6>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections7}} % 
+% % \only<6>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections5}} % 
+% \end{center}
+% \end{frame}
+\begin{frame}{Combining Different Information Sources}
+	\begin{center}
+		\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections7}
+	\end{center}
 
-\begin{frame}{Workflow}
+\end{frame}
+
+\captionslide{Dense and accurate whole-chromosome haplotyping of individual genomes \\
+{ \begin{itemize}
+ \scriptsize \color{red}
+		\item How much coverage is required for each sequencing technology in an integrative approach?
+	\end{itemize} }
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+}
+
+\begin{frame}{StrandSeq in the MEC Framework}
+\begin{center}
+\includegraphics[width=\textwidth]{figs/strandseq}
+\end{center}
+\begin{block}{}
+\begin{itemize}
+ \item StrandSeq data leads to wMEC problem with \emph{two rows for each cell}, one for Watson, one for Crick
+ \item \emph{Additional constraint} that Watson/Crick reads do not come from same haplotype
+ \item Solving it exactly is infeasible (with known algorithms)
+\end{itemize}
+\end{block}
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+\end{frame}
+
+\begin{frame}{Combining StrandSeq and PacBio}
+\begin{center}
+\includegraphics[width=\textwidth]{figs/strandseq-plus-pacbio}
+\end{center}
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+\end{frame}
+
+% \begin{frame}{Combining 10X Genomics and PacBio}
+% \begin{center}
+% \includegraphics[width=\textwidth]{figs/10xg-plus-pacbio}
+% \end{center}
+% \end{frame}
+
+
+\begin{frame}{Integrative phasing approach}
+\begin{block}{}
+\begin{itemize}
+%  \item Long-range haplotyping using StrandSeq or 10xGenomics.
+%  \item Combine with long-read sequencing technologies like PacBio or ONT
+ \item In WhatsHap algorithm, solve paramerterized algorithm using Dynamic Programming (DP)
+ \item WhatsHap solves MEC optimaly for bounded coverage
+\end{itemize}
+\end{block}
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+\end{frame}
+
+
+\begin{frame}{Datasets}
+\begin{itemize}
+ \item Illumina: 1000 Genome Project Consortium
+ \item PacBio: Genome in a Bottle Consortium
+ \item Pre-assembled 10X Genomics haplotypes: 10x Genomics website
+ \item StrandSeq: publicly available at ENA
+ \item Gold-standard phasing: Illumina platinum haplotypes from a pedigree
+\end{itemize}
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+
+\end{frame}
+
+\begin{frame}{Results (Phasing efficacy)}
+\begin{center}
+\includegraphics[width=\textwidth, height=160]{figs/Figure1}
+\end{center}
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+
+\end{frame}
+
+
+\begin{frame}{Comprehensive coverage analysis for haplotype quality}
+\center{Completeness} 
+\begin{center}
+\includegraphics[width=\textwidth]{figs/Figure3_1}
+\end{center}
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+
+\end{frame}
+
+\begin{frame}{Comprehensive coverage analysis for haplotype quality}
+\center{Accuracy}
+\begin{center}
+\includegraphics[width=.9\textwidth, height = 144]{figs/Figure3_5}
+\end{center}
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+
+\end{frame}
+
+\begin{frame}{Comprehensive coverage analysis for haplotype quality}
+\center{Contiguity}
+\begin{center}
+\includegraphics[width=\textwidth]{figs/Figure3_2}
+\end{center}
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+
+\end{frame}
+
+
+
+\begin{frame}{Genome-wide phasing of a single individual (NA12878)}
+\begin{center}
+\includegraphics[width=\textwidth]{figs/Figure4_1}
+\end{center}
+\let\thefootnote\relax\footnote{\tiny\textcolor{gray}{Porubsky D*, \textbf{Garg S*}, Sanders AD*, Korbel J, Guryev V, Lansdorp PM, Marschall T. \textit{Dense and accurate whole-chromosome haplotyping of individual genomes}. Nature Communications. 2017}}
+
+\end{frame}
+
+\captionslide{Back to the big picture}
+
+\begin{frame}{Combining Different Information Sources}
+	\begin{center}
+		\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections7}
+	\end{center}
+\end{frame}
+
+% \begin{frame}{Combining Different Information Sources}
+% \begin{center}
+% \only<1>{\includegraphics[width=\textwidth]{figs/haplotyping-overview-connections5}} % 
+% \end{center}
+% \end{frame}
+
+\begin{frame}{}
+\begin{center}
+\includegraphics[scale=.35]{figs/sih-phasing-complete-assembly.pdf}
+\end{center}
+\begin{itemize}
+ \item Reference bias
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{}
+\begin{center}
+\includegraphics[scale=.35]{figs/sih-phasing-complete-assembly1.pdf}
+\end{center}
+\begin{itemize}
+ \item Goal: two genome sequences -- haplotypes.
+\end{itemize}
+\end{frame}
+
+\captionslide{Haplotype-aware denovo assembly \\
+ {\begin{itemize}
+ \scriptsize \color{red}
+		\item What is the cost effective way of generating the good quality assemblies?
+		\item Can we phase even large structural variants over the genome?
+	\end{itemize} }
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+}
+
+
+\begin{frame}{Haplotype-aware denovo assembly}
+\begin{itemize}
+ \item Port it as a graph problem -- assembly graph.
+\end{itemize}
+	\begin{center}
+		\only<1>{\includegraphics[width=\textwidth, height=160]{figs/assembly4}}%
+	\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Diploid genome assembly}
+\begin{itemize}
+ \item Graph construction
+\end{itemize}
+
+	\begin{center}
+		\only<1>{\includegraphics[width=.8\textwidth, height=160]{figs/assembly_graphs}}%
+	\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Related work}
+\begin{itemize}
+ \item Falcon Unzip performs contig-based phasing based on PacBio data
+\end{itemize}
+	\begin{center}
+		\only<1>{\includegraphics[width=.8\textwidth, height=155]{figs/cropped_falcon-unzip}}%
+	\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Why contig-based phasing is not complete?}
+\begin{itemize}
+ \item Phasing SNPs by aligning PacBio reads to contigs
+\end{itemize}
+	\begin{center}
+		\only<1>{\includegraphics[width=.8\textwidth, height=155]{figs/ex_graph_approach}}%
+	\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Diploid genome assembly pipeline}
 	\begin{center}
 		\only<1>{\includegraphics[width=\textwidth, height=175]{figs/pipeline}}%
 	\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
 \end{frame}
+
+
+\begin{frame}{Diploid genome assembly pipeline}
+\begin{itemize}
+ \item Long read-alignments to graph
+\end{itemize}
+
+	\begin{center}
+		\only<1>{\includegraphics[width=\textwidth, height=155]{figs/assembly9}}%
+	\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Diploid genome assembly pipeline}
+\begin{itemize}
+ \item Detect bubble chains
+\end{itemize}
+
+	\begin{center}
+		\only<1>{\includegraphics[width=\textwidth, height=155]{figs/assembly6}}%
+	\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Diploid genome assembly pipeline}
+\begin{itemize}
+ \item Phasing bubble chains
+\end{itemize}
+
+	\begin{center}
+		\only<1>{\includegraphics[width=\textwidth, height=155]{figs/assembly5}}%
+	\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Phasing bubble chains}
+ \begin{itemize}
+  \item Observation: Phasing bubble chains is similar to phasing multi-allelic variants
+  \item Extend MEC formulation for bi-allelic variants to multi-allelic (gMEC)
+  \item Solve in a WhatsHap style Dynamic Programming (DP) algorithm
+  \item WhatsHap solves gMEC optimally for bounded coverage 
+ \end{itemize}
+ \let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Datasets}
+\begin{itemize}
+ \item Pseudo-diploid (SK1+Y12) yeast genome
+ \item Illumina and PacBio data: publicly available (ENA)
+ \item Gold-standard assemblies generated using high coverage PacBio data
+\end{itemize}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Assembly Accuracy}
+\begin{center}
+\begin{table}
+\begin{tabular}{ |l|c|c|c| } 
+ \hline
+ Statistics & PacBio & Graph-based  & Falcon Unzip \\ 
+ & coverage &  approach &  \\ 
+  \hline
+ Average Identity[\%] & 10$\times$& 99.50 & \textemdash\\
+   & 20$\times$& 99.61  &\textemdash\\
+   & 30$\times$& 99.80 &99.4 \\
+ Phasing error rate[\%] & 10$\times$& 2.5 & \textemdash\\
+   & 20$\times$& 1.5  &\textemdash\\
+   & 30$\times$& 0.7 & 3.8 \\
+   \hline
+\end{tabular}
+\\[10pt]
+ \caption{Comparison of two phasing methods, Falcon Unzip and our graph-based approach, at different PacBio coverage levels.}
+\end{table}
+\label{table1}
+\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+
+\begin{frame}{Assembly Contiguity}
+\begin{center}
+\begin{table}
+\begin{tabular}{ |l|c|c|c| } 
+ \hline
+ Statistics & PacBio & Graph-based  & Falcon Unzip \\ 
+ & coverage &  approach &  \\ 
+  \hline
+   N50 haplotig size [bp]& 10$\times$& 40k &\textemdash\\
+   & 20$\times$& 42k &\textemdash\\
+   & 30$\times$& 43k &32k\\ 
+   \hline
+\end{tabular}
+\\[10pt]
+ \caption{Comparison of two phasing methods, Falcon Unzip and our graph-based approach, at different PacBio coverage levels.}
+\end{table}
+\label{table2}
+\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+\begin{frame}{Assembly Completeness}
+\begin{center}
+\begin{table}
+\begin{tabular}{ |l|c|c|c| } 
+ \hline
+ Statistics & PacBio & Graph-based  & Falcon Unzip \\ 
+ & coverage &  approach &  \\ 
+  \hline
+  Haplotig size [Mbp] & 10$\times$& 20.7 &\textemdash\\
+   & 20$\times$& 23.1 &\textemdash\\
+   & 30$\times$& 23.9 & 16.6\\
+   \# Unphased contigs  & 10$\times$& 2 &\textemdash\\
+   & 20$\times$& 2 &\textemdash\\
+   & 30$\times$& 2 &77\\
+ \hline
+\end{tabular}
+\\[10pt]
+ \caption{Comparison of two phasing methods, Falcon Unzip and our graph-based approach, at different PacBio coverage levels.}
+\end{table}
+\label{table3}
+\end{center}
+\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+
+
+\begin{frame}{Phasing the Structural Variations}
+\begin{center}
+		\only<1>{\includegraphics[width=.6\textwidth, height=155]{figs/wh}}%
+	\end{center}
+	\let\thefootnote\relax\footnote{\scriptsize\textcolor{gray}{\textbf{Garg S}, Rautiainen M, Novak A, Durbin R \& Marschall T. \textit{A graph-based approach to diploid genome assembly}. Submitted}}
+\end{frame}
+% \captionslide{Efficient approach for statistical and read-based phasing}
+% 
+% \begin{frame}{Workflow}
+% 	\begin{center}
+% 		\only<1>{\includegraphics[width=\textwidth, height=175]{figs/pipeline}}%
+% 	\end{center}
+% \end{frame}
+
+\begin{frame}{Conclusion}
+	\begin{itemize}
+		\item Developed novel haplotype-aware denovo assembly pipeline
+		\item Integrative pipeline produces good quality haplotypes even at low coverage of 10$\times$
+		\item Phase even large structural variants
+	\end{itemize}
+	\begin{block}{}
+		\emph{Summary} Developed efficient algorithms for haplotyping by combining different information sources and demonstrated these methods on real genomes.
+	\end{block}
+\end{frame}
+
+% \begin{frame}{Acknowledgements}
+% Richard Durbin \\
+% Benedict Paten \\
+% Jan Korbel \\
+% Peter M Lansdorp \\
+% David Porubsky \\
+% Thomas Lengauer\\
+% Tobias Marschall \\
+%  
+% \end{frame}
+
+
+\captionslide{Thanks \\ \small Questions?}
 
 
 
